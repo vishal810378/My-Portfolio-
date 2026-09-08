@@ -112,6 +112,17 @@ main {
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(56, 189, 248, 0.25);
+}
+
+.btn.secondary:hover {
+    background: #38bdf8;
+    color: #020617;
 }
 
 .btn.secondary {
